@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="BackendApi/BackendApi.csproj" />
+  <Project Path="CaseSetupWeb/CaseSetupWeb.csproj" />
+  <Project Path="SharedLibrary/SharedLibrary.csproj" />
+  <Project Path="StudentSimulation/StudentSimulation.csproj" />
+  <Project Path="TeacherAssessment/TeacherAssessment.csproj" />
+</Solution>
