@@ -4,23 +4,20 @@ using System.Text;
 
 namespace SharedLibrary.Models
 {
-    internal class PatientCase
+    public class PatientCase
     {
+        public int Id { get; set; }
 
+        public string Name { get; set; } = string.Empty;
 
-        int Id;
-        
-        string Name;
-        
-        int Age;
-        
-        string Sex;
-        
-        double Weight;
-        
-        string Diagnosis;
-        
-        bool Active;
+        public int Age { get; set; }
 
+        public string Sex { get; set; } = string.Empty;
+
+        public double Weight { get; set; }
+
+        public string Diagnosis { get; set; } = string.Empty;
+
+        public bool Active { get; set; }
     }
 }

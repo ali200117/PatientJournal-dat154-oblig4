@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace SharedLibrary.Models;
 
-namespace SharedLibrary.Models
+public class TimelineEvent
 {
-    internal class TimelineEvent
-    {
-    }
+    public int Id { get; set; }
+
+    public int PatientCaseId { get; set; }
+
+    public string Text { get; set; } = string.Empty;
+
+    public DateTime TimeStamp { get; set; }
 }

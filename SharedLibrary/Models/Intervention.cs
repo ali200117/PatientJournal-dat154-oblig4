@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace SharedLibrary.Models;
 
-namespace SharedLibrary.Models
+public class Intervention
 {
-    internal class Intervention
-    {
+    public int Id { get; set; }
 
+    public int PatientCaseId { get; set; }
 
+    public string Type { get; set; } = string.Empty;
 
+    public string Description { get; set; } = string.Empty;
 
-    }
+    public DateTime TimeStamp { get; set; }
 }

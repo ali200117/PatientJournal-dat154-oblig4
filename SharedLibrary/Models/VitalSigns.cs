@@ -1,19 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace SharedLibrary.Models;
 
-namespace SharedLibrary.Models
+public class VitalSigns
 {
-    internal class VitalSigns
-    {
+    public int Id { get; set; }
 
+    public int PatientCaseId { get; set; }
 
-        int Id;
-        int PatientCaseId;
-        int BloodPressure;
-        double HeartRate;
-        int OxygenSaturation;
-        double Temperature;
-        TimeSpan TimeStamp;
-    }
+    public int BloodPressure { get; set; }
+
+    public int HeartRate { get; set; }
+
+    public int OxygenSaturation { get; set; }
+
+    public double Temperature { get; set; }
+
+    public DateTime TimeStamp { get; set; }
 }
